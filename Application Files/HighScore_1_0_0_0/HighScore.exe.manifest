@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HighScore.exe" version="1.0.0.0" publicKeyToken="194edf727a76772f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HighScore" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HighScore.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HighScore.exe" size="10704">
+      <assemblyIdentity name="HighScore" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dgpegCLpByZFbaf37QgFy+bbFYKueJ4/hnPuCZSWs+w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HighScore.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AWESOMO_JR\Michael" issuerKeyHash="8e86c93cd5a4fae3f7503b8e5b25b406e9e90b27" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4C+lJJKNXEpaePHyMv6A3ZHLd/Wx2KSQje628Jtdr+8=</DigestValue></Reference></SignedInfo><SignatureValue>A8r1lt+Sz/OrXVY09tn3k++Yv761lK/0YL+Yvt30An6YIN3hjf5RCLUbI5X+J9o1qP50LPxLD0fAoXzJOMDty5lm1p5AVikMR8g/NPWX+Ro2BwFTon+LySDvNTg2DMCVsdaxhi50dc3NQrIaMrIZc19UleyKceQfqbZGEcZy4IE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o7gC0HbiiK/8W/t4zzrT9k+TGnNDhRf0FvBjh0VCXD6kB/GWBIo+gmMoljiGiOPO91jbuxPnshOuW5MS074VZP0K38bzK2pd0Bju7I+TIVABNKHhCrcTe+xYPLmvsemQ8byZpjdu9tGxZH0Q6dvFHWPLpj5k79q45vkiaBPowxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="efaf5d9bf0b6ee8d90a4d8b1f577cb91dd80fe32f2f1785a4a5c8d9224a52fe0" Description="" Url=""><as:assemblyIdentity name="HighScore.exe" version="1.0.0.0" publicKeyToken="194edf727a76772f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AWESOMO_JR\Michael</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9Dan37uI6BiHGUV2gxTR6XaGEiYz74XOSMntQSJmyqo=</DigestValue></Reference></SignedInfo><SignatureValue>JwT09fYaMbW6L+m7im7KQZGgef6Oev8BKqLEkGZ53Y3pHk5DYXOhZtUn3wAQKjV6QUEMT0uUSyby/Zm8Oz93sgnkh7uv2QJP+TBYa8WDycK2LQvZZjZWWQ/G06ovrvZU6LKBEyukpFiZDT8Iv7GcQgruKLEE49f7JdEdZRWkllg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o7gC0HbiiK/8W/t4zzrT9k+TGnNDhRf0FvBjh0VCXD6kB/GWBIo+gmMoljiGiOPO91jbuxPnshOuW5MS074VZP0K38bzK2pd0Bju7I+TIVABNKHhCrcTe+xYPLmvsemQ8byZpjdu9tGxZH0Q6dvFHWPLpj5k79q45vkiaBPowxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQXsM1RVk1SYdBZwA5e/1FWjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAQQBXAEUAUwBPAE0ATwBfAEoAUgBcAE0AaQBjAGgAYQBlAGwwHhcNMTUxMjAyMTg0NjE0WhcNMTYxMjAyMDA0NjE0WjAvMS0wKwYDVQQDHiQAQQBXAEUAUwBPAE0ATwBfAEoAUgBcAE0AaQBjAGgAYQBlAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKO4AtB24oiv/Fv7eM860/ZPkxpzQ4UX9BbwY4dFQlw+pAfxlgSKPoJjKJY4hojjzvdY27sT57ITrluTEtO+FWT9Ct/G8ytqXdAY7uyPkyFQATSh4Qq3E3vsWDy5r7HpkPG8maY3bvbRsWR9EOnbxR1jy6Y+ZO/auOb5ImgT6MMRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcTC0QgL8VCAJ3viCQTEmQztimakci8ukaVvZw3OkgbhShAN1CXcjFePNMNOZpd5zVNwu7mpq6LVPSzrOUxF20sV4F+npeCq40wZRzpvde4ydLENzkntlF35smJDticRCaoBU2/MDtvJSvlahl1Z1d5NzfWHJKb2HyWo2kzHE38s=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
